@@ -1,27 +1,30 @@
 # Writing readme files :-
+
 ## Styling :-
-- To make text bold use **write in double
-stars**
-- To make text italics use *write in single
-stars*
+- To make text bold use **write in doublestars**
+- To make text italics use *write in single stars*
 - subscript can be done by x <sub> n </sub>
 - superscript can be done by x <sup> n </sup>
 - This is an <ins>underlined</ins> text
+
+
 ## Quoting text :-
-- You can quote text with a >.
+- You can quote text with a .
 - Text that is not a quote
 > Text that is a quote
+
 ## links :-
 - format to insert link is
 '[description](required link)'
-- This site was built using [GitHub
-Pages](https://pages.github.com/).
+- This site was built using [GitHubPages](https://pages.github.com/).
+
 ## Images :-
 - Here is the images :
-![image
-1](https://astrix.security/wp-content/uploads
-/2024/05/GitHub-Apps-Bug-Created-Significant3rd-Party-Risk_-How-You-Can-Stay-Protected-1.
-png).
+![image1](https://astrix.security/wp-content/uploads/2024/05/GitHub-Apps-Bug-Created-Significant3rd-Party-Risk_-How-You-Can-Stay-Protected-1.png).
+
+##second Image
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
 ## lists :-
 ### ordered list
 1. James Madison
@@ -34,24 +37,32 @@ png).
 ### task list
 - [x] Git
 - [ ] Latex
-## FootNotes :-
-- Here is a simple footnote[^1].
-- A footnote can also have multiple
-lines[^2].
+
+##footnote
+Here is a simple footnote[^1].
+A footnote can also have multiple lines[^2].
+
 [^1]: My reference.
-[^2]: To add line breaks within a footnote,
-prefix new lines with 2 spaces.
-This is a second line.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces. This is a second line.
+
 ## Alerts :-
 > [!NOTE]
-> Useful information that users should know,
-even when skimming content.
+> Useful information that users should know, even when skimming content.
+
 > [!TIP]
-> Helpful advice for doing things better or
-more easily.
+> Helpful advice for doing things better or more easily.
+
 > [!IMPORTANT]
-> Key information users need to know to
-achieve their goal.
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+
+
 ## Code :-
 - To format code or text into its own
 distinct block, use triple backticks.
@@ -61,12 +72,16 @@ git status
 git add
 git commit
 ```
+
+
 ## Mathematical Expression :-
 - To enable clear communication of
 mathematical expressions, GitHub supports
 LaTeX formatted math within Markdown.
 - This sentence uses `$` delimiters to show
 math inline: $\sqrt{3x-1}+(1+x)^2$
+
+
 ## Tables in README file :-
 - You can create tables with pipes | and
 hyphens -. Hyphens are used to create each
